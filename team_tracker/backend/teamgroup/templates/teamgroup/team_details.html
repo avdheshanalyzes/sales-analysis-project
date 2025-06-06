@@ -1,0 +1,19 @@
+{% extends "teamgroup/base.html" %}
+
+{% block title %}{{ team.name }}{% endblock %}
+
+{% block content %}
+<h1>{{ team.name }}</h1>
+<p>{{ team.description }}</p>
+
+<h2>Members:</h2>
+<ul>
+  {% for member in members %}
+    <li>{{ member.name }} - {{ member.role }}</li>
+  {% empty %}
+    <li>No members yet.</li>
+  {% endfor %}
+</ul>
+
+<a href="{% url 'team-list' %}">← Back to Teams</a>
+{% endblock %}
