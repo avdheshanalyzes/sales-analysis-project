@@ -20,3 +20,30 @@ The dataset used contains detailed transactional sales data including order date
 - Excel (for data cleaning and preparation)
 
 ## Folder Structure
+
+
+
+## Business Impact
+This analysis helps businesses:
+- Make data-driven decisions on inventory and marketing strategies.
+- Identify products that drive profit or cause losses.
+- Allocate resources effectively by focusing on profitable regions.
+- Forecast demand to optimize supply chain and sales planning.
+
+---
+
+### How to Run the Project
+1. Clone the repository.
+2. Install required packages using `pip install -r requirements.txt`.
+3. Open the Jupyter notebook in the `notebook` folder.
+4. Follow the step-by-step analysis and visualizations.
+
+---
+
+Feel free to explore the project and reach out for any questions or collaborations!
+
+---
+
+*Made with ❤️ by Avdhesh Jaiswal*
+
+
