@@ -20,6 +20,14 @@ The dataset used contains detailed transactional sales data including order date
 - Excel (for data cleaning and preparation)
 
 ## Folder Structure
+sales-analysis-project/
+│
+├── data/                   # Raw and/or cleaned data files
+├── notebook/               # Jupyter notebooks for analysis
+├── visuals/                # Plots and graphs saved as images
+├── reports/                # PDF or docs summaries
+├── README.md               # This file
+└── requirements.txt        # Python dependencies
 
 
 
